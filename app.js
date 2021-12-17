@@ -14,3 +14,11 @@ function calculateCube(base, exponent=3){
     return base**exponent
 }
 console.log(calculateCube(5));
+
+// 3) IS A VOWEL?
+
+function isAVowel(str){
+    const vowel = /[AEIOUaeiou]/
+    return vowel.test(str)
+}
+console.log(isAVowel("a"));
