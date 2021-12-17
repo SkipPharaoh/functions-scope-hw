@@ -40,3 +40,25 @@ function sumArray(arr){
     return sum
 }
 console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
+// 6) PRIME NUMBERS
+
+function checkPrimes(num){
+    for (let i=2; i<num; i++){
+        if (num % i === 0){
+            return false
+        }
+    }return true
+}
+console.log(checkPrimes(47));
+
+function printPrimes(number){
+    for (let i=2; i<=number; i++){
+        if (checkPrimes(i) === true){
+            console.log(i)
+        }
+    }
+}
+printPrimes(97)
+
+// 7) PRINT LONGEST WORD
