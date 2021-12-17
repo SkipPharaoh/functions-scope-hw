@@ -22,3 +22,10 @@ function isAVowel(str){
     return vowel.test(str)
 }
 console.log(isAVowel("a"));
+
+// 4) GET TWO LENGTHS
+
+function getTwoLengths(str1,str2){
+    return [str1.length, str2.length]
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
